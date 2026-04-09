@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/web(.*)",
+      "destination": "https://web.ae-academy.work",
+      "permanent": true
+    }
+  ]
+}

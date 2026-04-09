@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوت أزرار تليجرام - د/ أحمد عيسى</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .details-hero {
+            padding-top: 150px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .details-icon {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .details-title {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-family: var(--font-arabic);
+        }
+
+        .details-desc {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+
+        .cta-box {
+            background: rgba(0, 244, 255, 0.05);
+            border: 1px solid rgba(0, 244, 255, 0.3);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem auto;
+            max-width: 600px;
+        }
+
+        .cta-box h3 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .cta-box p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.8rem 2rem;
+            background: #0088cc;
+            color: #fff;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 136, 204, 0.4);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .feature-card {
+            padding: 2rem;
+            text-align: right;
+        }
+
+        .feature-card h4 {
+            color: var(--accent-cyan);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--accent-cyan);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo">Dr_Ahmed_Eisa</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">الرئيسية</a></li>
+                <li><a href="index.html#projects" class="active">المشاريع</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="details-hero fade-in-up visible">
+            <div class="details-icon">
+                <svg viewBox="0 0 24 24" width="80" height="80" fill="currentColor">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.96-.63-.34-.98.22-1.56.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.19-.08-.05-.19-.02-.27 0-.11.03-1.9 1.22-5.36 3.55-.5.35-.96.52-1.38.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.46-.42-1.4-.88.03-.24.34-.48.96-.74 3.78-1.65 6.31-2.73 7.57-3.26 3.61-1.51 4.36-1.77 4.85-1.78.11 0 .35.03.48.14.11.09.14.22.15.34.02.08.02.16.02.24z" />
+                </svg>
+            </div>
+            <h1 class="details-title glitch" data-text="بوت أزرار تليجرام">بوت أزرار تليجرام</h1>
+            <p class="details-desc">
+                بوت متقدم وذكي مصمم خصيصاً على منصة تيليجرام لإنشاء وإدارة المنشورات ذات الأزرار المدمجة (Inline
+                Buttons) باحترافية وسهولة تامة. يتيح لأصحاب القنوات والمجموعات إضافة محتوى تفاعلي للمنشورات بمرونة
+                عالية، مع تنسيق متقن للروابط ودعم لكافة أنواع الوسائط.
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <h4>أزرار مخصصة وتفاعلية</h4>
+                    <p>إمكانية تصميم أزرار شفافة مدمجة مع الرسائل لتسهيل التوجيه والروابط للمستخدمين بأسرع وأسهل طريقة.
+                    </p>
+                </div>
+                <div class="feature-card glass-card">
+                    <h4>دعم شامل للوسائط</h4>
+                    <p>دعم كامل لكافة أنواع الصور، الفيديوهات، والملفات بصيغة متناسقة مع الأزرار لتوفير منشورات جذابة.
+                    </p>
+                </div>
+                <div class="feature-card glass-card">
+                    <h4>واجهة أوامر بسيطة</h4>
+                    <p>برمجة سلسلة تتيح لأي مستخدم بغض النظر عن خبرته إضافة وتعديل الرسائل وإدراج الأزرار دون تعقيد.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <h4>إدارة القنوات</h4>
+                    <p>تسهيل أتمتة الرسائل التفاعلية داخل قنوات تيليجرام الكبيرة، مما يزيد من معدلات التفاعل والمظهر
+                        الاحترافي.</p>
+                </div>
+            </div>
+
+            <div class="cta-box fade-in-up">
+                <h3>هل تريد الحصول على البوت؟</h3>
+                <p>للحصول على نسخة من بوت الأزرار المطور ومناقشة تفاصيله، تواصل معي الآن (يفضل عبر تيليجرام).</p>
+                <a href="https://t.me/dr_ahmed_eisa" target="_blank" class="cta-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.96-.63-.34-.98.22-1.56.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.19-.08-.05-.19-.02-.27 0-.11.03-1.9 1.22-5.36 3.55-.5.35-.96.52-1.38.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.46-.42-1.4-.88.03-.24.34-.48.96-.74 3.78-1.65 6.31-2.73 7.57-3.26 3.61-1.51 4.36-1.77 4.85-1.78.11 0 .35.03.48.14.11.09.14.22.15.34.02.08.02.16.02.24z" />
+                    </svg>
+                    تواصل معي على تيليجرام
+                </a>
+            </div>
+
+            <a href="index.html#projects" class="back-link">← العودة للمشاريع</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
